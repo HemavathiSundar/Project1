@@ -15,7 +15,7 @@ sh 'git clone https://github.com/HemavathiSundar/Project1.git -b master'
 stage("deploy")
 {
 steps{
-sh 'mv 2100_artist/* /var/www/html/' 
+sh 'mv Project1/* /var/www/html/' 
 }
 }
 }
